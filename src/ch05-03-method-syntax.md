@@ -74,7 +74,7 @@ we can use a field within a method of the same name for any purpose. In `main`,
 when we follow `rect1.width` with parentheses, Rust knows we mean the method
 `width`. When we don’t use parentheses, Rust knows we mean the field `width`.
 
-Often, but not always, when we give methods with the same name as a field we
+Often, but not always, when we give a method the same name as a field, we
 want it to only return the value in the field and do nothing else. Methods like
 this are called *getters*, and Rust does not implement them automatically for
 struct fields as some other languages do. Getters are useful because you can
